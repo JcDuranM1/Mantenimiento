@@ -1,0 +1,58 @@
+body#layout #outer-wrapper,body#layout .row{width:auto;padding:0}
+body#layout{max-width:860px;position:relative;padding:95px 5px 5px;margin:0 auto}
+body#layout div.section{margin:0 5px 10px!important;padding:16px 16px 18px!important}
+body#layout .section h4{font-size:14px;margin:0}
+body#layout::before {content: "Mantenimiento V2.0.0";font-family: sans-serif;padding: 10px 20px;font-size: 18px;border: 1px solid #d6d6d6;border-radius: 10px;background: linear-gradient(to right,#80828e,#2f79c5);font-weight: 700;color: #fff;}
+body#layout:after {content: " Diseñado por JcDuranM ";padding: 10px;font-size: 20px;visibility: visible;}
+body#layout .visibility {min-height: 0;}
+body#layout .layout-widget-description {display: none;}
+body#layout .locked-widget .widget-wrap3 {padding-left: 10px;background: #2e79c5;}
+body#layout .locked-widget .visibility .layout-widget-state.visible {background-image: url("https://4.bp.blogspot.com/-qicweZaCb7I/XR_IGBqqGfI/AAAAAAAABS0/MIpI_COKj6MBkeN9FEJhqL96WYnYfGjngCK4BGAYYCw/s1600/visibility_c3_600_24dp.png") !important;}
+body#layout .visibility .editlink {background: #3c97ef url("https://1.bp.blogspot.com/-iQoCOwqjB-w/Wy1bDznOM4I/AAAAAAAACGA/8BUOPStr0sk5oud9hWpHBQTrmkeJDoAvACK4BGAYYCw/s18-c/mode_edit_w600_24dp.png") no-repeat center !important;}
+body#layout .draggable-widget .visibility .editlink {background: #757575 url("https://1.bp.blogspot.com/-iQoCOwqjB-w/Wy1bDznOM4I/AAAAAAAACGA/8BUOPStr0sk5oud9hWpHBQTrmkeJDoAvACK4BGAYYCw/s18-c/mode_edit_w600_24dp.png") no-repeat center !important;}
+body#layout .header-mobile {width: 320px;}
+body#layout div#berkas-search {width: 223px;}
+body#layout .menu-bk {padding: 0px;}
+body#layout footer {padding: 0;}
+body#layout .konten-berkas {padding-top: 50px;padding-bottom: 50px;position: relative;}
+body#layout .konten-berkas::after {content: '!!Todavía no admite todos los widgets!!';position: absolute;top: 0;font-size: 30px;left: 0;right: 0;color: red;font-family: 'Roboto';}
+body#layout .konten-berkas::before {content: '⭐ Gratis ⭐';position: absolute;bottom: 10px;font-size: 30px;left: 5px;right: 5px;color: #2f79c5;font-family: 'Roboto';font-weight: bold;border: 2px solid;}  /* visibilidad */
+body#layout .visibility .layout-widget-state.not-visible {background-image: url(https://1.bp.blogspot.com/-d0aG6MhB1wE/Ykzc3T4Pg4I/AAAAAAAAABk/7YlG6z_NIicCTJsfvw9U5Aka0aTe_7dMwCNcBGAsYHQ/s24/visibility_off_red_24dp.png) !important;opacity: 1;}
+    a {text-decoration: none;color: var(--color1)}
+    *{margin:0;padding:0;line-height: 1.5rem}
+    html,body{height:100%;background:#434A54;color:white;font-family:&quot;Inconsolata&quot;,monospace;font-size:100%}
+    .maintenance{text-transform:uppercase;margin-bottom:1rem;font-size:3rem}
+    .container{display:table;margin:0 auto;max-width:1024px;width:100%;height:100%;align-content:center;position:relative;box-sizing:border-box}
+    .container .what-is-up{position:absolute;width:100%;top:50%;transform:translateY(-50%);padding: 0 10px;display:block;vertical-align:middle;text-align:center;box-sizing:border-box}
+    .container .what-is-up .spinny-cogs{display:block;margin-bottom:2rem}
+    @-webkit-keyframes fa-spin-one{0%{transform:translateY(-2rem) rotate(0deg)}100%{transform:translateY(-2rem) rotate(-359deg)}}
+@keyframes fa-spin-one{0%{transform:translateY(-2rem) rotate(0deg)}100%{transform:translateY(-2rem) rotate(-359deg)}}
+.fa-spin-one,.container .what-is-up .spinny-cogs .fa:nth-of-type(1){-webkit-animation:fa-spin-one 1s infinite linear;animation:fa-spin-one 1s infinite linear}
+@-webkit-keyframes fa-spin-two{0%{transform:translateY(-0.5rem) translateY(1rem) rotate(0deg)}100%{transform:translateY(-0.5rem) translateY(1rem) rotate(-359deg)}}
+@keyframes fa-spin-two{0%{transform:translateY(-0.5rem) translateY(1rem) rotate(0deg)}100%{transform:translateY(-0.5rem) translateY(1rem) rotate(-359deg)}}
+.fa-spin-two,.container .what-is-up .spinny-cogs .fa:nth-of-type(3){-webkit-animation:fa-spin-two 2s infinite linear;animation:fa-spin-two 2s infinite linear}
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 900px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 540px) {
+.maintenance {font-size: 2rem}
+}
+@media only screen and (max-width: 425px) {
+}
+  :root {
+    --color1: #1976d2;
+    --link: #337ab7;
+  }
+  /* Riset */
+  *,
+  *::before,
+  *::after {box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word}
+  * {margin:0;padding:0;font:inherit}
+  img,
+  picture,
+  svg,
+  video {max-width: 100%;}
+  .none {display: none}
